@@ -1,0 +1,1 @@
+python test_wgan.py --weight generatorWP.h5
