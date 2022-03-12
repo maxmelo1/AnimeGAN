@@ -18,7 +18,7 @@ LR = 0.00005 # UPDATE for WGAN: learning rate per WGAN paper
 LATENT_DIM = 128 
 BATCH_SIZE = 64
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='Load test wgan params.')
 parser.add_argument('--weight', type=str, help='trained weight path')
 
 
