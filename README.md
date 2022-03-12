@@ -1,5 +1,5 @@
 # Anime GAN
-Simple implementation of Anime GAN and Anime GAN-GP of [Pyimagesearch](https://pyimagesearch.com/2022/02/07/anime-faces-with-wgan-and-wgan-gp/).
+Simple implementation of Anime Wasserstein GAN (WGAN) and  Wasserstein GAN with Gradient Penalty (WGAN-GP) of [Pyimagesearch](https://pyimagesearch.com/2022/02/07/anime-faces-with-wgan-and-wgan-gp/).
 
 This implementation simply aims to generate anime faces using WGAN and WGAN-GP, just for fun :).
 
