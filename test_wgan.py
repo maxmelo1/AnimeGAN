@@ -46,7 +46,8 @@ def show(images):
 
 res = model.predict(x)
 
-show(res)
-# plt.axis("off")
-# plt.imshow(res[0])
-# plt.show()
+#show(res)
+plt.axis("off")
+plt.imshow(res[0])
+plt.savefig("imgs/output.png")
+plt.show()
