@@ -74,5 +74,5 @@ wgan.compile(
     g_loss_fn = g_wasserstein_loss
 )
 
-NUM_EPOCHS = 50 # number of epochs
+NUM_EPOCHS = 100 # number of epochs
 wgan.fit(train_images, epochs=NUM_EPOCHS, callbacks=[GANMonitor(num_img=16, latent_dim=LATENT_DIM)])
