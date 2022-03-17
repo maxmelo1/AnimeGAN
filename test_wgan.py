@@ -47,7 +47,10 @@ def show(images):
 res = model.predict(x)
 
 #show(res)
+size = np.shape(res[0])
+print(size)
+plt.figure(figsize=(size[0]/300, size[1]/300), dpi=300)
 plt.axis("off")
-plt.imshow(res[0])
+plt.imshow(res[10])
 plt.savefig("imgs/output.png")
 plt.show()

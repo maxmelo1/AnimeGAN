@@ -1,1 +1,1 @@
-python test_wgan.py --weight generator.h5
+python test_wgan.py --weight modelWGP.h5
